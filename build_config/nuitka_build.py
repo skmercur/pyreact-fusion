@@ -85,6 +85,7 @@ class NuitkaBuilder:
         cmd.extend([
             "--include-package=backend",
             "--include-package=config",
+            "--include-package=passlib",
         ])
         
         # Include data directories

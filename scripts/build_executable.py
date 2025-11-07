@@ -72,6 +72,7 @@ def build_with_nuitka():
         "--enable-plugin=anti-bloat",
         "--include-package=backend",
         "--include-package=config",
+        "--include-package=passlib",
         "--include-data-dir=backend/static=backend/static",
         "--include-data-dir=config=config",
         "--output-dir=dist",
