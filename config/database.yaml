@@ -1,0 +1,53 @@
+# Database Configuration Templates
+# Copy and modify these templates based on your database type
+
+sqlite:
+  type: "sqlite"
+  path: "./data/app.db"
+  # SQLite doesn't require additional connection parameters
+  # For production, consider using absolute paths
+
+postgresql:
+  type: "postgresql"
+  host: "localhost"
+  port: 5432
+  database: "pyreact_fusion"
+  user: "postgres"
+  password: "postgres"
+  # Additional PostgreSQL options
+  pool_size: 5
+  max_overflow: 10
+  pool_pre_ping: true
+  # Connection string format:
+  # postgresql://user:password@host:port/database
+
+mysql:
+  type: "mysql"
+  host: "localhost"
+  port: 3306
+  database: "pyreact_fusion"
+  user: "root"
+  password: "root"
+  charset: "utf8mb4"
+  pool_size: 5
+  max_overflow: 10
+  pool_pre_ping: true
+  # Connection string format:
+  # mysql+pymysql://user:password@host:port/database
+
+mongodb:
+  type: "mongodb"
+  host: "localhost"
+  port: 27017
+  database: "pyreact_fusion"
+  user: ""  # Optional
+  password: ""  # Optional
+  # Connection string format:
+  # mongodb://[user:password@]host:port/database
+
+# Example connection strings:
+# SQLite: sqlite:///./data/app.db
+# PostgreSQL: postgresql://user:password@localhost:5432/dbname
+# MySQL: mysql+pymysql://user:password@localhost:3306/dbname
+# MongoDB: mongodb://localhost:27017/dbname
+

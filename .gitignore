@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+.venv
+
+# React/Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+frontend/dist/
+frontend/.vite/
+frontend/build/
+# Vite expects index.html in root
+# frontend/index.html (keep in git, but note it's generated)
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Build artifacts
+*.exe
+*.app
+*.dmg
+*.pkg
+dist/
+build/
+*.spec
+
+# Nuitka
+*.build/
+*.dist/
+*.onefile-build/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# Static files (will be generated)
+backend/static/
+backend/templates/
+
+# Application configuration (user-specific)
+app_config.json
+

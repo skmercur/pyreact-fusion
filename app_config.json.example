@@ -1,0 +1,21 @@
+{
+  "mode": "web",
+  "app": {
+    "name": "PyReact Fusion",
+    "description": "A production-ready full-stack application template",
+    "version": "1.0.0",
+    "author": {
+      "name": "Sofiane Khoudour",
+      "email": "khoudoursofiane75@gmail.com",
+      "github": "https://github.com/skmercur"
+    }
+  },
+  "database": {
+    "type": "sqlite"
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8000
+  }
+}
+

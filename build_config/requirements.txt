@@ -1,0 +1,10 @@
+# Build Dependencies
+# These are required for building the executable with Nuitka
+
+nuitka>=1.8.0
+ordered-set>=4.1.0
+
+# Additional build tools (optional)
+# setuptools>=65.0.0
+# wheel>=0.40.0
+
